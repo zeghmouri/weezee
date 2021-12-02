@@ -10,7 +10,7 @@ export default function version() {
         <div className={styles.versionContainer}>
             <div className={styles.content}>
                 <p className={styles.subtitle}> Version 2.0</p>
-                <h1 className={styles.title}>WiFi illimité à l’extérieur, à prix cassé !</h1>
+                <h1 className={styles.title}>WiFi illimité à l&apos;extérieur, à prix cassé !</h1>
                 <p className={styles.brief}>Depuis 2014, notre mission est la même : vous connecter facilement aux réseaux WiFis proche de vous grâce à une application complète et novatrice.</p>
                 <div className={styles.btnGrp}>
                     <img src={appstore.src} alt="appstorebutton"/>

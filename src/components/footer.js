@@ -12,10 +12,10 @@ export default function footer() {
         <div className={styles.footer}>
             <div className={styles.content}>
                 <img src={logo.src} alt="logo"/>
-                <p>WiFi illimité à l’extérieur, à prix cassé !</p>
+                <p>WiFi illimité à l&apos;extérieur, à prix cassé !</p>
                 <ul className={styles.navbar}>
                     <li className={styles.navlink}><a href="#concept">Le concept</a></li>
-                    <li className={styles.navlink}><a href="#app">L application</a></li>
+                    <li className={styles.navlink}><a href="#app">L&apos;application</a></li>
                     <li className={styles.navlink}><a href="#map">Weezee Map</a></li>
                     <li className={styles.navlink}><a href="#tarifs">Nos Tarifs</a></li>
                 </ul>

@@ -8,7 +8,7 @@ export default function tarifs() {
             <div className={styles.content}>
                 <p className={styles.subtitle}>Nos Tarifs</p>
                 <h2 className={styles.title}>Des tarifs simples, sans mauvaise surprise</h2>
-                <p className={styles.brief}>Une tarification simple et transparente qui évolue selon vos besoins. Passez d’un forfait à l’autre facilement depuis votre application.</p>
+                <p className={styles.brief}>Une tarification simple et transparente qui évolue selon vos besoins. Passez d&apos;un forfait à l&apos;autre facilement depuis votre application.</p>
             </div>
             <div className={styles.priceCard}>
                 <h1 className={styles.cardTitle}>4,99€ / mo</h1>

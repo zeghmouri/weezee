@@ -16,7 +16,7 @@ export default function concept() {
                 <div className={styles.content}>
                     <div className={styles.feature}>
                         <img src={cercle.src} alt="icon"/>
-                        <p>Vérifiez quotidiennement le nombre de connexions qu'il vous reste en 1 clic.</p>
+                        <p>Vérifiez quotidiennement le nombre de connexions qu&apos;il vous reste en 1 clic.</p>
                     </div>
                     <div className={styles.feature}>
                         <img src={phone.src} alt="icon"/>

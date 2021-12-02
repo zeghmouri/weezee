@@ -9,7 +9,7 @@ export default function newsletter() {
                 <h1 className={styles.title}>Soyez le premier au courant quand nous lançons le service</h1>
                 <form>
                     <input type="mail" placeholder="Entrez votre email"/>
-                    <button type="submit">M avertir</button>
+                    <button type="submit">M&apos;avertir</button>
                     <p>Mail enregistré ! Nous vous contacterons bientôt</p>
                 </form>
             </div>
