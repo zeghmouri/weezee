@@ -51,6 +51,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .header {
+    height: 60px;
+    overflow: hidden;
+  }
   .header,
   .header .navbar,
   .header .navbar .navlinks {

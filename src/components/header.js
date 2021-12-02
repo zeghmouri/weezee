@@ -1,15 +1,34 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from '../../styles/header.module.css'
 import logo from '../assets/images/logo.svg'
 import icon from '../assets/icons/humburger.svg'
 
+
 export default function header() {
+    const [headerStyle, setHeaderStyle]=useState({});
+    const [navDisplayed, setNavDisplayed]=useState(false);
+    function toglleNav(){
+        if(!navDisplayed){
+           setHeaderStyle({
+            height: '400px',
+            transition: 'height 2s ease',
+            
+        }); 
+        setNavDisplayed(true);
+        }
+        else{
+            setHeaderStyle({height: '50px',
+            transition: 'height 2s ease',});
+            setNavDisplayed(false);
+        }
+        
+    }
     return (
-        <div className={styles.header}>
-            <div className={styles.navbar}>
+        <div style={headerStyle} className={styles.header}>
+            <div  className={styles.navbar}>
                     <div className={styles.logo}>
                         <a href="/"><img src={logo.src} alt="logo"/></a>
-                        <img src={icon.src} className={styles.icon} alt="icon"/>    
+                        <img onClick={toglleNav} src={icon.src} className={styles.icon} alt="icon"/>    
                     </div>
                     <ul className={styles.navlinks}>
                         <li className={styles.navlink}><a href="#concept">Le concept</a></li>
