@@ -1,5 +1,6 @@
 .versionContainer {
-  width: 1260px;
+  max-width: 1260px;
+  width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 65% 35%;
@@ -24,7 +25,7 @@
   border-radius: 16px;
 }
 .versionContainer .content .title {
-  width: 700px;
+  width: 90%;
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
@@ -34,7 +35,7 @@
   margin: 16px 0 0;
 }
 .versionContainer .content .brief {
-  width: 657px;
+  width: 80%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -58,10 +59,34 @@
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 20px;
+  line-height: 30px;
   color: #6941c6;
   margin: 25px 12px 0 0;
 }
 .versionContainer .img {
   margin-top: 64px;
+}
+
+@media only screen and (max-width: 600px) {
+  .versionContainer {
+    grid-template-columns: 100%;
+    height: 1150px;
+    overflow: hidden;
+  }
+  .versionContainer .content .subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .versionContainer .content .title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .versionContainer .content .brief {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .versionContainer .img {
+    margin: 74px 0 0;
+    margin-left: -20%;
+  }
 }

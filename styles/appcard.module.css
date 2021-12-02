@@ -1,5 +1,6 @@
 .appCard {
-  width: 1260px;
+  max-width: 1260px;
+  width: 90%;
   margin: 0 auto;
   padding: 96px 0;
 }
@@ -38,8 +39,52 @@
   font-size: 20px;
   line-height: 30px;
   color: #e9d7fe;
-  width: 480px;
+  width: 85%;
+  font-size: 18px;
+  line-height: 30px;
 }
 .appCard .card .img {
   margin-top: 44px;
+}
+.appCard .card .img .phone {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .appCard .card {
+    grid-template-columns: 100%;
+  }
+  .appCard .card .cardContent {
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .appCard .card .cardContent .subtitle {
+    display: none;
+  }
+  .appCard .card .cardContent .title {
+    margin: 40px 0 0;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .appCard .card .cardContent p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 16px;
+  }
+  .appCard .card .img .app {
+    display: none;
+  }
+  .appCard .card .img {
+    margin: 50px auto 0;
+    width: 95%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .appCard .card .img .phone {
+    display: initial;
+    margin-top: 50px;
+  }
 }

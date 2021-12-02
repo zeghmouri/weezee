@@ -3,6 +3,7 @@ import styles from '../../styles/concept.module.css'
 import img from '../assets/images/conceptimg.png'
 import cercle from '../assets/icons/cercle.svg'
 import phone from '../assets/icons/phone.svg'
+import img2 from '../assets/images/iPhone12.png'
 
 export default function concept() {
     return (
@@ -24,7 +25,8 @@ export default function concept() {
                     </div>
                 </div>
                 <div className={styles.img}>
-                    <img src={img.src}alt="img"/>
+                    <img className={styles.conceptImg} src={img.src} alt="img"/>
+                    <img className={styles.phone} src={img2.src} alt="phone"/>
                 </div>
             </div>
         </div>

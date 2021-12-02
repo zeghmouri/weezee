@@ -1,11 +1,13 @@
 .footer {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   background: #53389e;
 }
 
 .footer .content {
-  width: 1260px;
+  max-width: 1260px;
+  width: 90%;
   margin: 0 auto;
   padding-top: 64px;
   font-family: Inter;
@@ -52,4 +54,21 @@
 }
 .footer .copyrights .socials li {
   margin-right: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .footer .content .navbar {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .footer .content .navbar .navlink {
+    margin-bottom: 32px;
+  }
+  .footer .copyrights {
+    flex-direction: column;
+    width: 90%;
+  }
+  .footer .copyrights .socials {
+    padding: 0;
+    margin-bottom: 50px;
+  }
 }

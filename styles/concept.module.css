@@ -1,5 +1,6 @@
 .conceptContainer {
-  width: 1260px;
+  max-width: 1260px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -22,7 +23,7 @@
   margin: 12px 0 0;
 }
 .conceptContainer .head .brief {
-  width: 1148px;
+  width: 95%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -41,11 +42,48 @@
 }
 .conceptContainer .body .content .feature p {
   margin-top: 20px;
-  width: 384px;
+  width: 70%;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: #101828;
+}
+.conceptContainer .img .phone {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .conceptContainer {
+    margin-top: 64px;
+    height: 1200px;
+    overflow: hidden;
+  }
+  .conceptContainer .head .subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .conceptContainer .head .title {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .conceptContainer .head .brief {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 16px 0 0;
+  }
+  .conceptContainer .body {
+    grid-template-columns: 100%;
+  }
+  .conceptContainer .body .content {
+    margin-top: 48px;
+  }
+  .conceptContainer .img .conceptImg {
+    display: none;
+  }
+  .conceptContainer .img .phone {
+    display: initial;
+    margin-top: 50px;
+  }
 }

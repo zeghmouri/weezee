@@ -1,5 +1,6 @@
 .tarifs {
-  width: 1260px;
+  max-width: 1260px;
+  width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 40% 30% 30%;
@@ -36,7 +37,7 @@
 }
 .tarifs .priceCard {
   margin-top: 76.5px;
-  width: 336px;
+  width: 89%;
   text-align: center;
   border: 1px solid #e4e7ec;
   box-sizing: border-box;
@@ -90,4 +91,37 @@
   line-height: 24px;
   color: #667085;
   width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .tarifs {
+    display: flex;
+    flex-direction: column;
+  }
+  .tarifs .content {
+    margin-top: 64px;
+  }
+  .tarifs .content .subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .tarifs .content .title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .tarifs .content p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .tarifs .priceCard {
+    width: 100%;
+  }
+  .tarifs .priceCard .cardTitle {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .tarifs .priceCard .cardSubtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

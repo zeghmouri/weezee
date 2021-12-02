@@ -1,5 +1,6 @@
 .newsletter {
-  width: 1260px;
+  max-width: 1260px;
+  width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -54,4 +55,36 @@
 
 .newsletter .img {
   margin: 96px 0;
+}
+@media only screen and (max-width: 600px) {
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter .content {
+    margin-top: 130px;
+  }
+  .newsletter .content .title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .newsletter .content form {
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter .content form input,
+  .newsletter .content button {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .newsletter .content form p {
+    display: none;
+  }
+  .newsletter .img {
+    margin-top: 64px;
+    margin-bottom: 0;
+  }
+  .newsletter .img img {
+    width: 100%;
+  }
 }

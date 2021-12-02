@@ -2,16 +2,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1280px;
+  max-width: 1280px;
+  width: 90%;
   margin: 30px auto 0;
 }
+.header .logo .icon {
+  display: none;
+}
 .header .navbar {
-  list-style: none;
   display: flex;
-  margin: 0;
-  justify-content: space-evenly;
-  padding: 0;
+}
+.header .navbar .navlinks {
   align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .header .navbar .logo {
   margin-right: 40px;
@@ -45,4 +51,23 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .header,
+  .header .navbar,
+  .header .navbar .navlinks {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .header .logo .icon {
+    display: initial;
+  }
+  .header .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .navbar .navlinks {
+    margin-top: 36px;
+  }
+  .header .navbar .navlinks .navlink {
+    margin-bottom: 16px;
+  }
 }
