@@ -79,6 +79,11 @@
   .conceptContainer .body .content {
     margin-top: 48px;
   }
+  .conceptContainer .img {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
   .conceptContainer .img .conceptImg {
     display: none;
   }
