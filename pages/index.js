@@ -5,6 +5,9 @@ import Version from '../src/components/version'
 import Concept from '../src/components/concept'
 import AppCard from '../src/components/appCard'
 import WeezeeMap from '../src/components/weezeeMap'
+import Tarifs from '../src/components/tarifs'
+import Newsletter from '../src/components/newsletter'
+import Footer from '../src/components/footer'
 
 export default function Home() {
   return (
@@ -18,7 +21,9 @@ export default function Home() {
       <Concept></Concept>
       <AppCard></AppCard>
       <WeezeeMap></WeezeeMap>
-        
+      <Tarifs></Tarifs>
+        <Newsletter></Newsletter>
+        <Footer></Footer>
       </div>
 
       
