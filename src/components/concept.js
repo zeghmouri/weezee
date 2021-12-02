@@ -15,16 +15,16 @@ export default function concept() {
             <div className={styles.body}>
                 <div className={styles.content}>
                     <div className={styles.feature}>
-                        <img src={cercle.src}></img>
+                        <img src={cercle.src} alt="icon"/>
                         <p>Vérifiez quotidiennement le nombre de connexions qu'il vous reste en 1 clic.</p>
                     </div>
                     <div className={styles.feature}>
-                        <img src={phone.src}></img>
+                        <img src={phone.src} alt="icon"/>
                         <p>Aucune configuration requise / Fonctionne avec tous les appareils.</p>
                     </div>
                 </div>
                 <div className={styles.img}>
-                    <img src={img.src}></img>
+                    <img src={img.src}alt="img"/>
                 </div>
             </div>
         </div>

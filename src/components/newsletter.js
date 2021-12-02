@@ -8,13 +8,13 @@ export default function newsletter() {
             <div className={styles.content}>
                 <h1 className={styles.title}>Soyez le premier au courant quand nous lançons le service</h1>
                 <form>
-                    <input type="mail" placeholder="Entrez votre email"></input>
-                    <button>M'avertir</button>
+                    <input type="mail" placeholder="Entrez votre email"/>
+                    <button type="submit">M'avertir</button>
                     <p>Mail enregistré ! Nous vous contacterons bientôt</p>
                 </form>
             </div>
             <div className={styles.img}>
-                <img src={img.src}></img>
+                <img src={img.src} alt="img"/>
             </div>
         </div>
     )

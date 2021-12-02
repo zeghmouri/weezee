@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Header from '../src/components/header'
 import Version from '../src/components/version'
 import Concept from '../src/components/concept'
@@ -16,14 +15,14 @@ export default function Home() {
         <title>weezee</title>
         <link rel="icon" href="/weezee.svg" />
       </Head>
-      <Header></Header>
-      <Version></Version>
-      <Concept></Concept>
-      <AppCard></AppCard>
-      <WeezeeMap></WeezeeMap>
-      <Tarifs></Tarifs>
-        <Newsletter></Newsletter>
-        <Footer></Footer>
+      <Header/>
+      <Version/>
+      <Concept/>
+      <AppCard/>
+      <WeezeeMap/>
+      <Tarifs/>
+      <Newsletter/>
+      <Footer/>
       </div>
 
       

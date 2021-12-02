@@ -11,22 +11,22 @@ export default function footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.content}>
-                <img src={logo.src}></img>
+                <img src={logo.src} alt="logo"/>
                 <p>WiFi illimité à l’extérieur, à prix cassé !</p>
                 <ul className={styles.navbar}>
-                    <li className={styles.navlink}><a href="#">Le concept</a></li>
-                    <li className={styles.navlink}><a href="#">L'application</a></li>
-                    <li className={styles.navlink}><a href="#">Weezee Map</a></li>
-                    <li className={styles.navlink}><a href="#">Nos Tarifs</a></li>
+                    <li className={styles.navlink}><a href="#concept">Le concept</a></li>
+                    <li className={styles.navlink}><a href="#app">L'application</a></li>
+                    <li className={styles.navlink}><a href="#map">Weezee Map</a></li>
+                    <li className={styles.navlink}><a href="#tarifs">Nos Tarifs</a></li>
                 </ul>
             </div>
             <div className={styles.copyrights}>
                 <p>© 2021 Weezee. All rights reserved.</p>
                 <ul className={styles.socials}>
-                    <li><img src={twitter.src}></img></li>
-                    <li><img src={linkedin.src}></img></li>
-                    <li><img src={facebook.src}></img></li>
-                    <li><img src={instagram.src}></img></li>
+                    <li><img src={twitter.src} alt="twitterIcon"/></li>
+                    <li><img src={linkedin.src} alt="linkedinIcon"/></li>
+                    <li><img src={facebook.src} alt="facebookIcon"/></li>
+                    <li><img src={instagram.src} alt="InstagramIcon"/></li>
                 </ul>
             </div>
         </div>
