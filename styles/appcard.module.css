@@ -1,0 +1,45 @@
+.appCard {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+.appCard .card {
+  background: #53389e;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.1), 0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+  border-radius: 24px;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 56px;
+}
+.appCard .card .cardContent {
+  margin: 122px 0 0 64px;
+  color: white;
+}
+.appCard .card .cardContent .subtitle {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.appCard .card .cardContent .title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin: 20px 0 0;
+}
+.appCard .card .cardContent p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #e9d7fe;
+  width: 480px;
+}
+.appCard .card .img {
+  margin-top: 44px;
+}

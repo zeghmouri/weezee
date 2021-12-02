@@ -1,0 +1,58 @@
+.conceptContainer {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.conceptContainer .head .subtitle {
+  width: 128px;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px 4px 4px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #6941c6;
+  background: #f9f5ff;
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+}
+.conceptContainer .head .title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #101828;
+  margin: 12px 0 0;
+}
+.conceptContainer .head .brief {
+  width: 1148px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+  margin: 20px 0 0;
+}
+.conceptContainer .body {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.conceptContainer .body .content {
+  margin-top: 72px;
+}
+.conceptContainer .body .content .feature p {
+  margin-top: 20px;
+  width: 384px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+}
