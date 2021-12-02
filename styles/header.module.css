@@ -9,6 +9,10 @@
 .header .logo .icon {
   display: none;
 }
+.header .navbar .logo button {
+  background-color: transparent;
+  border: none;
+}
 .header .navbar {
   display: flex;
 }

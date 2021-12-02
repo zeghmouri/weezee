@@ -28,7 +28,7 @@ export default function header() {
             <div  className={styles.navbar}>
                     <div className={styles.logo}>
                         <a href="/"><img src={logo.src} alt="logo" height="56" width="184"/></a>
-                        <img onClick={toglleNav} src={icon.src} className={styles.icon} alt="icon" />    
+                        <button onClick={toglleNav} ><img src={icon.src} className={styles.icon} alt="icon" /> </button>   
                     </div>
                     <ul className={styles.navlinks}>
                         <li className={styles.navlink}><a href="#concept">Le concept</a></li>
