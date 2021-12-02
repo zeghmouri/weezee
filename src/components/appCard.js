@@ -13,8 +13,8 @@ export default function appCard() {
                     <p>Profitez d&apos;une connexion optimale dans tous les établissements de notre réseau partenaire. Nous selectionnons les endroits selon leur hospitaliter et leur réseau Internet.</p>
                 </div>
                 <div className={styles.img}>
-                    <img className={styles.app} src={app.src} alt="img"/>
-                    <img className={styles.phone} src={img.src} alt="img"/>
+                    <img className={styles.app} src={app.src} alt="img" width="616" height="480"/>
+                    <img className={styles.phone} src={img.src} alt="img" width="323" height="299"/>
                 </div>
             </div>
         </div>

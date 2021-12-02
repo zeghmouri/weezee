@@ -14,7 +14,7 @@ export default function newsletter() {
                 </form>
             </div>
             <div className={styles.img}>
-                <img src={img.src} alt="img"/>
+                <img src={img.src} alt="img" width="576" height="512"/>
             </div>
         </div>
     )

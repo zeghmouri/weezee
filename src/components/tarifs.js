@@ -16,19 +16,19 @@ export default function tarifs() {
                 <p>100 connexions</p>
                 <ul className={styles.features}>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Accès à notre base de données de réseaux WiFis aux Antilles</p>
                     </li>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Créez des QR Codes WiFi</p>
                     </li>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Partagez votre réseau WiFi avec votre entourage facilement</p>
                     </li>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Connectez-vous à des réseaux WiFis dans plus de 100 pays dans le monde</p>
                     </li>
                 </ul>
@@ -39,23 +39,23 @@ export default function tarifs() {
                 <p>Connexions illimitées</p>
                 <ul className={styles.features}>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Accès à notre base de données de réseaux WiFis aux Antilles</p>
                     </li>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Créez des QR Codes WiFi</p>
                     </li>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Partagez votre réseau WiFi avec votre entourage facilement</p>
                     </li>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Connectez-vous à des réseaux WiFis dans plus de 100 pays dans le monde</p>
                     </li>
                     <li className={styles.feature}>
-                        <img src={checkIcon.src} alt="checkIcon"/>
+                        <img src={checkIcon.src} alt="checkIcon" width="24" height="25"/>
                         <p>Connexions illimitées</p>
                     </li>
                 </ul>

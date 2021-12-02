@@ -13,16 +13,16 @@ export default function version() {
                 <h1 className={styles.title}>WiFi illimité à l&apos;extérieur, à prix cassé !</h1>
                 <p className={styles.brief}>Depuis 2014, notre mission est la même : vous connecter facilement aux réseaux WiFis proche de vous grâce à une application complète et novatrice.</p>
                 <div className={styles.btnGrp}>
-                    <img src={appstore.src} alt="appstorebutton"/>
-                    <img src={playstore.src} alt="playstorebutton"/>
+                    <img src={appstore.src} alt="appstorebutton" height="45" width="132"/>
+                    <img src={playstore.src} alt="playstorebutton" height="45" width="149"/>
                 </div>
                 <div className={styles.newVersion}>
                     <h3 >Nouvelle version<br/>bientôt disponible</h3>
-                    <img src={arrow.src} alt="arrowIcon"/>
+                    <img src={arrow.src} alt="arrowIcon" height="85" width="48"/>
                 </div>
             </div>
             <div className={styles.img}>
-                <img src={phone.src} alt="img"/>
+                <img src={phone.src} alt="img" height="722" width="532"/>
             </div>
         </div>
     )

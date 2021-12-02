@@ -11,7 +11,7 @@ export default function footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.content}>
-                <img src={logo.src} alt="logo"/>
+                <img src={logo.src} alt="logo" width="184" height="55"/>
                 <p>WiFi illimité à l&apos;extérieur, à prix cassé !</p>
                 <ul className={styles.navbar}>
                     <li className={styles.navlink}><a href="#concept">Le concept</a></li>
@@ -23,10 +23,10 @@ export default function footer() {
             <div className={styles.copyrights}>
                 <p>© 2021 Weezee. All rights reserved.</p>
                 <ul className={styles.socials}>
-                    <li><img src={twitter.src} alt="twitterIcon"/></li>
-                    <li><img src={linkedin.src} alt="linkedinIcon"/></li>
-                    <li><img src={facebook.src} alt="facebookIcon"/></li>
-                    <li><img src={instagram.src} alt="InstagramIcon"/></li>
+                    <li><img src={twitter.src} alt="twitterIcon" width="24" height="20"/></li>
+                    <li><img src={linkedin.src} alt="linkedinIcon" width="24" height="24"/></li>
+                    <li><img src={facebook.src} alt="facebookIcon" width="24" height="24"/></li>
+                    <li><img src={instagram.src} alt="InstagramIcon" width="20" height="20"/></li>
                 </ul>
             </div>
         </div>
