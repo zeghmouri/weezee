@@ -4,7 +4,7 @@ import logo from '../assets/images/logo.svg'
 import icon from '../assets/icons/humburger.svg'
 
 
-export default function header() {
+export default function Header() {
     const [headerStyle, setHeaderStyle]=useState({});
     const [navDisplayed, setNavDisplayed]=useState(false);
     function toglleNav(){
