@@ -2,9 +2,9 @@ import React from 'react'
 import styles from '../../styles/tarifs.module.css'
 import checkIcon from '../assets/icons/check.svg'
 
-export default function tarifs() {
+export default function Tarifs() {
     return (
-        <div className={styles.tarifs}>
+        <div id="tarifs" className={styles.tarifs}>
             <div className={styles.content}>
                 <p className={styles.subtitle}>Nos Tarifs</p>
                 <h2 className={styles.title}>Des tarifs simples, sans mauvaise surprise</h2>

@@ -74,7 +74,7 @@
     font-size: 18px;
     line-height: 30px;
     width: 100%;
-    margin-top: 16px;
+    margin: 16px 0 0;
   }
   .appCard .card .img .app {
     display: none;
@@ -88,6 +88,5 @@
   }
   .appCard .card .img .phone {
     display: initial;
-    margin-top: 50px;
   }
 }

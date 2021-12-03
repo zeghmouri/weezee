@@ -50,6 +50,7 @@
   font-size: 14px;
   line-height: 150%;
   color: #198754;
+  display: none;
 }
 
 .newsletter .img {
@@ -81,14 +82,12 @@
     width: 100%;
     margin-bottom: 16px;
   }
-  .newsletter .content form p {
-    display: none;
-  }
   .newsletter .img {
     margin-top: 64px;
     margin-bottom: 0;
   }
   .newsletter .img img {
     width: 100%;
+    height: 360px;
   }
 }

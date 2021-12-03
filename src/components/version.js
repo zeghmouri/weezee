@@ -5,7 +5,7 @@ import appstore from '../assets/images/appstorebtn.svg'
 import playstore from '../assets/images/playstorebtn.svg'
 import arrow from '../assets/icons/arrow.svg'
 
-export default function version() {
+export default function Version() {
     return (
         <div className={styles.versionContainer}>
             <div className={styles.content}>

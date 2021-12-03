@@ -7,7 +7,7 @@ import twitter from '../assets/icons/twitter.svg'
 import instagram from '../assets/icons/instagram.svg'
 
 
-export default function footer() {
+export default function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.content}>
@@ -16,7 +16,7 @@ export default function footer() {
                 <ul className={styles.navbar}>
                     <li className={styles.navlink}><a href="#concept">Le concept</a></li>
                     <li className={styles.navlink}><a href="#app">L&apos;application</a></li>
-                    <li className={styles.navlink}><a href="#map">Weezee Map</a></li>
+                    <li className={styles.navlink}><a href="#weezeemap">Weezee Map</a></li>
                     <li className={styles.navlink}><a href="#tarifs">Nos Tarifs</a></li>
                 </ul>
             </div>

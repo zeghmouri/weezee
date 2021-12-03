@@ -3,9 +3,9 @@ import styles from '../../styles/appcard.module.css'
 import app from '../assets/images/app.png'
 import img from '../assets/images/iPhone.png'
 
-export default function appCard() {
+export default function AppCard() {
     return (
-        <div className={styles.appCard}> 
+        <div id="app" className={styles.appCard}> 
             <div className={styles.card}>
                 <div className={styles.cardContent}>
                     <p className={styles.subtitle}>+1M Réseaux WiFi référencés dans le monde</p>

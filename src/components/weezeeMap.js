@@ -6,7 +6,7 @@ import phone from '../assets/icons/phone.svg'
 
 export default function weezeeMap() {
     return (
-        <div className={styles.weezeeMap}>
+        <div id="weezeemap" className={styles.weezeeMap}>
             <div className={styles.img}>
                 <img src={img.src} alt="img" width="576" height="513"/>
             </div>

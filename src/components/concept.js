@@ -5,9 +5,9 @@ import cercle from '../assets/icons/cercle.svg'
 import phone from '../assets/icons/phone.svg'
 import img2 from '../assets/images/iPhone12.png'
 
-export default function concept() {
+export default function Concept() {
     return (
-        <div className={styles.conceptContainer}>
+        <div id="concept" className={styles.conceptContainer}>
             <div className={styles.head}>
                 <p className={styles.subtitle}> Le concept </p>
                 <h2 className={styles.title}>Connexion Automatique au WiFi autours de vous</h2>
