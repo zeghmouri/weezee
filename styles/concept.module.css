@@ -2,9 +2,10 @@
   max-width: 1260px;
   width: 90%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
-.conceptContainer .head .subtitle {
+.conceptContainer .head .subtitl {
   padding: 4px 10px 4px 4px;
   font-family: Inter;
   font-style: normal;

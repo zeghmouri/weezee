@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import styles from '../../styles/header.module.css'
 import logo from '../assets/images/logo.svg'
 import icon from '../assets/icons/humburger.svg'
@@ -23,6 +23,12 @@ export default function Header() {
         }
         
     }
+    useEffect(() => {
+        const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+console.log(vw);
+console.log(vh);
+      });
     return (
         <div style={headerStyle} className={styles.header}>
             <div  className={styles.navbar}>
