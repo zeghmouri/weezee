@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react'
+import React, {useState} from 'react'
 import styles from '../../styles/header.module.css'
 import logo from '../assets/images/logo.svg'
 import icon from '../assets/icons/humburger.svg'
