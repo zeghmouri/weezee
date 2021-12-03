@@ -11,14 +11,14 @@ export default function Header() {
         if(!navDisplayed){
            setHeaderStyle({
             height: '400px',
-            transition: 'height 1s ease',
+            transition: 'height 0.5s ease',
             
         }); 
         setNavDisplayed(true);
         }
         else{
             setHeaderStyle({height: '60px',
-            transition: 'height 1s ease',});
+            transition: 'height 0.5s ease',});
             setNavDisplayed(false);
         }
         
