@@ -23,10 +23,10 @@ export default function Footer() {
             <div className={styles.copyrights}>
                 <p>© 2021 Weezee. All rights reserved.</p>
                 <ul className={styles.socials}>
-                    <li><a href="https://www.twitter.com/weezeeapp" target="_blank"><img src={twitter.src} alt="twitterIcon" width="24" height="20"/></a></li>
-                    <li><a href="https://www.linkedin.com/company/weezee/" target="_blank"><img src={linkedin.src} alt="linkedinIcon" width="24" height="24"/></a></li>
-                    <li><a href="https://www.facebook.com/weezeeapp/" target="_blank"><img src={facebook.src} alt="facebookIcon" width="24" height="24"/></a></li>
-                    <li><a href="https://www.instagram.com/weezee_app/" target="_blank"><img src={instagram.src} alt="InstagramIcon" width="20" height="20"/></a></li>
+                    <li><a href="https://www.twitter.com/weezeeapp" target="_blank" rel="noreferrer"><img src={twitter.src} alt="twitterIcon" width="24" height="20"/></a></li>
+                    <li><a href="https://www.linkedin.com/company/weezee/" target="_blank" rel="noreferrer"><img src={linkedin.src} alt="linkedinIcon" width="24" height="24"/></a></li>
+                    <li><a href="https://www.facebook.com/weezeeapp/" target="_blank" rel="noreferrer"><img src={facebook.src} alt="facebookIcon" width="24" height="24"/></a></li>
+                    <li><a href="https://www.instagram.com/weezee_app/" target="_blank" rel="noreferrer"><img src={instagram.src} alt="InstagramIcon" width="20" height="20"/></a></li>
                 </ul>
             </div>
         </div>
