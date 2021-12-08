@@ -7,7 +7,7 @@ import WeezeeMap from '../src/components/weezeeMap'
 import Tarifs from '../src/components/tarifs'
 import Newsletter from '../src/components/newsletter'
 import Footer from '../src/components/footer'
-import previewImage from '../src/assets/images/preview.jpg'
+import previewImage from '../public/preview.jpg'
 
 export default function Home() {
   return (
